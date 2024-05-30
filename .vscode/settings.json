@@ -1,0 +1,164 @@
+{
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "[html]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "prettier.tabWidth": 4,
+    "prettier.endOfLine": "auto",
+    "prettier.jsxSingleQuote": true,
+    "prettier.singleQuote": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "gitlens.codeLens.scopes": [
+        "containers"
+    ],
+    "gitlens.codeLens.recentChange.command": "gitlens.diffWithPrevious",
+    "gitlens.hovers.pullRequests.enabled": false,
+    "gitlens.changes.locations": [
+        "gutter",
+        "overview"
+    ],
+    "gitlens.heatmap.locations": [
+        "overview",
+        "gutter"
+    ],
+    "gitlens.defaultDateShortFormat": null,
+    "gitlens.currentLine.format": "${author, }${agoOrDate}${ • message|50?}",
+    "gitlens.currentLine.pullRequests.enabled": false,
+    "gitlens.statusBar.command": "gitlens.diffWithPrevious",
+    "gitlens.statusBar.enabled": false,
+    "gitlens.mode.active": "zen",
+    "gitlens.advanced.messages": {
+        "suppressCreatePullRequestPrompt": true
+    },
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "history": false,
+            "remote": false
+        },
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scm": {
+            "authors": true
+        },
+        "scmGroupInline": {
+            "stash": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": false,
+            "stash": true
+        }
+    },
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FFFFFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#008000",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "#region",
+            "color": "#FFFFFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#04428b",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "#endregion",
+            "color": "#FFFFFF",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "#04428b",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "security.workspace.trust.untrustedFiles": "open",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "search.exclude": {
+        "**/.angular": true
+    },
+    "angular.log": "normal",
+    "angular-schematics.schematicsDefaultOptions": {
+        "angular-*": {
+            "externalTemplate": true,
+            "style": "scss"
+        },
+        "angular-page": {
+            "eagerLoading": true
+        }
+    }
+}
