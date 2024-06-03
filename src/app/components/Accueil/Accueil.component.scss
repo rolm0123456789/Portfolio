@@ -1,3 +1,4 @@
+@import '../../Variables.scss';
 #about-me {
     align-items: center;
     background-size: cover;
@@ -14,18 +15,50 @@ section {
     text-align: center;
 }
 
-#about-me .presentation p {
-    color: #6ec7e0;
-    font-family: Silkscreen;
-    font-size: 1.2vw;
-    font-weight: 700;
-    margin-left: 0;
-}
+#about-me .presentation {
+    .txt-display {
+        color: #fcf7f8;
+        font-family: Raleway;
+        text-shadow: 0.1em 0.1em 0.3em $secondary-color;
 
-#about-me .presentation .txt-display {
-    color: #fcf7f8;
-    font-family: Raleway;
-    text-shadow: 0.1em 0.1em 0.3em #6ec7e0;
+        h1 {
+            font-size: 2.5vw;
+        }
+        h2 {
+            color: inherit;
+            font-family: inherit;
+            font-size: 2vw;
+            margin: 1.2rem 0 1.5rem;
+        }
+    }
+    .btn-about-me {
+        animation-delay: 5s;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        color: $primary-color;
+        margin: 1vh auto;
+        min-width: 5vw;
+        a {
+            color: $primary-color;
+        }
+    }
+    .btn-about-me:hover {
+        background-color: $secondary-color-light;
+    }
+    .lightblue-btn {
+        background-color: transparent;
+        border-color: $secondary-color;
+        color: $secondary-color;
+    }
+    .btn,
+    .close-btn {
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+        border: 2px solid;
+        border-radius: 5px;
+        font-family: Silkscreen;
+        padding: 10px 25px;
+    }
 }
 
 /* =============================================================================

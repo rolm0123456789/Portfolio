@@ -44,7 +44,7 @@ export class AccueilComponent {
                     },
                 },
                 opacity: {
-                    value: 0.5,
+                    value: 1,
                     random: false,
                     anim: {
                         enable: false,
@@ -85,7 +85,7 @@ export class AccueilComponent {
                 },
             },
             interactivity: {
-                detect_on: 'canvas',
+                detect_on: 'window',
                 events: {
                     onhover: {
                         enable: true,
