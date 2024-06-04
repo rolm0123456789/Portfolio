@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { PresentationComponent } from '../Presentation/Presentation.component';
 declare function particlesJS(tag_id: any, params: any): any;
 
 @Component({
     selector: 'app-accueil',
     standalone: true,
-    imports: [CommonModule],
+    imports: [CommonModule, PresentationComponent],
     templateUrl: './Accueil.component.html',
     styleUrl: './Accueil.component.scss',
     changeDetection: ChangeDetectionStrategy.OnPush,

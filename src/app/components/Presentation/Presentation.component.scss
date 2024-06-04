@@ -1,0 +1,23 @@
+@import '../../Variables.scss';
+h2 {
+    color: $secondary-color;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: $background-color;
+}
+#description {
+    color: $secondary-color-light;
+    font-size: 2vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 60vw;
+}
