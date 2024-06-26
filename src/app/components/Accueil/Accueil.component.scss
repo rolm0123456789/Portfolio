@@ -126,13 +126,12 @@ section {
         animation-delay: 5s;
         animation-duration: 2s;
         animation-fill-mode: forwards;
-        color: $primary-color;
         margin: 1vh auto;
         min-width: 5vw;
-        a {
+        span {
             color: $primary-color;
-            font-size: 1.5vw;
         }
+        font-size: 1.5vw;
     }
     .btn-about-me:hover {
         background-color: $secondary-color-light;
