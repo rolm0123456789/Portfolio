@@ -1,0 +1,44 @@
+@import '../../Variables.scss';
+
+.parcours-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px 0;
+
+    .parcours {
+        color: var(--darkgrey-color);
+        margin: 0 0 0 30px;
+        padding-left: 4rem;
+        position: relative;
+    }
+    .parcours:before {
+        background: $primary-color;
+        content: '';
+        height: 100%;
+        left: 0;
+        opacity: 0.4;
+        position: absolute;
+        top: 0;
+        width: 2px;
+    }
+    .container {
+        position: relative;
+        margin-bottom: 20px;
+        .corp {
+            border: 1px solid white;
+            padding-left: 20px;
+            border-radius: 4px;
+            .point-parcours::before {
+                background-color: white;
+                border: 4px solid $secondary-color;
+                border-radius: 100%;
+                content: '';
+                height: 8px;
+                position: absolute;
+                margin-left: -92px;
+                top: 50%;
+                width: 8px;
+            }
+        }
+    }
+}

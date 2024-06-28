@@ -1,3 +1,5 @@
+@import '../../Variables.scss';
+
 a {
     color: #0f0;
     size: 50px;
@@ -29,6 +31,9 @@ ul {
     text-align: center; /* Centre le texte horizontalement */
     line-height: 100px; /* Centre le texte verticalement en fonction de la hauteur */
     list-style-type: none;
+}
+li {
+    background-color: $background-color;
 }
 
 @media (max-width: 500px) {
