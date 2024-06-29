@@ -1,5 +1,12 @@
 @import '../../Variables.scss';
 
+h1 {
+    color: #00f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .parcours-container {
     width: 80%;
     margin: 0 auto;
