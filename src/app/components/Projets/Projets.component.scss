@@ -1,0 +1,58 @@
+@import '../../Variables.scss';
+
+h1 {
+    color: #00f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+}
+
+.btn-about-me {
+    animation-delay: 5s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    min-width: 5vw;
+    span {
+        color: $primary-color;
+    }
+    font-size: 1.5vw;
+}
+.btn-about-me:hover {
+    background-color: $secondary-color-light;
+}
+.lightblue-btn {
+    background-color: transparent;
+    border-color: $secondary-color;
+    color: $secondary-color;
+}
+.btn,
+.close-btn {
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 0.2vw solid;
+    border-radius: 2vw;
+    font-family: Silkscreen;
+    padding: 1vw 3vw;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.info {
+    flex-direction: column;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+}

@@ -3,12 +3,13 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CompetencesComponent } from '../Competences/Competences.component';
 import { ParcoursComponent } from '../Parcours/Parcours.component';
 import { PresentationComponent } from '../Presentation/Presentation.component';
+import { ProjetsComponent } from '../Projets/Projets.component';
 declare function particlesJS(tag_id: any, params: any): any;
 
 @Component({
     selector: 'app-accueil',
     standalone: true,
-    imports: [CommonModule, PresentationComponent, ParcoursComponent, CompetencesComponent],
+    imports: [CommonModule, PresentationComponent, ParcoursComponent, CompetencesComponent, ProjetsComponent],
     templateUrl: './Accueil.component.html',
     styleUrl: './Accueil.component.scss',
     changeDetection: ChangeDetectionStrategy.OnPush,
